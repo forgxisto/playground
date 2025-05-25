@@ -2,8 +2,8 @@
 
 source "https://rubygems.org"
 
-gem 'debug'
-gem 'psych'
+gem 'debug', require: false
+gem 'psych', require: false
 
 gem 'benchmark-ips', require: false
 gem 'benchmark-memory', require: false

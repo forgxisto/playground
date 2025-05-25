@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
-require 'benchmark/memory'
+require 'bundler/setup'
 require 'benchmark/ips'
+require 'benchmark-memory'
 
 module RunBench
   def self.execute(targets = {})
