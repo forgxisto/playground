@@ -40,6 +40,7 @@ RUN apt-get update -qq \
     curl \
     unzip \
     git \
+    libyaml-dev \
     libsqlite3-dev \
     default-mysql-client \
     locales \
