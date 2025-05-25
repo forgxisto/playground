@@ -16,3 +16,7 @@ AllCops:
 # 日本語にコメントを許可
 Style/AsciiComments:
   Enabled: false
+
+# クラス定義のコメントなしを許可
+Style/Documentation:
+  Enabled: false
