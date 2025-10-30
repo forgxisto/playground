@@ -1,6 +1,6 @@
 # https://hub.docker.com/r/library/ruby/
 
-ARG RUBY_VERSION=3.4.2
+ARG RUBY_VERSION=3.4.7
 
 FROM ruby:$RUBY_VERSION-slim AS base
 
